@@ -1,7 +1,7 @@
 var Promise = require("bluebird");
 var fs		= Promise.promisifyAll(require("fs")); //Adds a new method fooAsync in my case readFileAsync
 
-fs.readFileAsync("access_20131113")
+fs.readFileAsync("log/access_20131113")
 .then(function(file){
 	return file.toString().split('\n');
 })
