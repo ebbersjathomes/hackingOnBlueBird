@@ -37,6 +37,8 @@ app.get("/codeError.json", function(req, resp, next){
 	});
 });
 
+app.get("/sampleRoute.json",require("./modules/sampleRoute"));
+
 app.use(function(err, req, resp, next){
   console.error(err.stack);
   resp.json(500, {"status" : false, "message" : "Hmm Something's not right"});
