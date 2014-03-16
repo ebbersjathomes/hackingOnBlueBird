@@ -1,0 +1,14 @@
+{
+  "name": "blueblird",
+  "version": "0.0.0",
+  "description": "Hacking on BlueBird",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Ebbers",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "bluebird": "~1.1.0"
+  }
+}
